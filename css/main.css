@@ -53,7 +53,7 @@ p {
   margin: 0;
 }
 
-.logo, .site-nav__link, .auth-nav__link, .social-list__link, .klients__link, .address__link, .do__link, .project__link {
+.logo, .site-nav__link, .auth-nav__link, .social-list__link, .klients__link, .address__link, .do__link, .project {
   text-decoration: none;
 }
 

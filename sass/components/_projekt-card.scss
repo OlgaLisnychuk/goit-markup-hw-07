@@ -1,4 +1,5 @@
 .project {
+    @extend %link;
     display: block;
     box-shadow: none;
     transition-property: box-shadow;
@@ -16,8 +17,7 @@
         border-top: none;
     }
 
-    &__link {
-        @extend %link;
+    
     }
     
     &__name {
