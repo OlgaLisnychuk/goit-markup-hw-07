@@ -1,33 +1,26 @@
-$fontFamilyLogo: 'Raleway', sans-serif;
-$fontWeightLogo: 700;
-$fontSizeLogo: 26px;
-$lineHeightLogo: 1.17;
-
-
 
 .logo {
-    {
+    @extend %link;
         margin-right: 93px;
-        color: $accent-color;
+        color: $accentColor;
         font-family: $fontFamilyLogo;
-        font-weight: $fontWeightLogo0;
-        font-size: $fontSizeLogox;
-        line-height: $lineHeightLogo7;
-        text-decoration: none;
-    
-    }
+        font-weight: $fontWeightLogo;
+        font-size: $fontSizeLogo;
+        line-height: $lineHeightLogo;
+       
     
     &--accent {
         color: $titleTextColor;
         
     }
-    
-    &__logo {
-        margin-right: 0;
-    }
-    
-    &__logo--accent {
-        color: $primaryWhiteColor;
-        
-    }
 } 
+
+.footer__logo {
+    margin-right: 0;
+
+
+&--accent {
+    color: $primaryWhiteColor;
+    
+}
+}
